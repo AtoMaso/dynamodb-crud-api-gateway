@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Jackson Yuan",
+  "author": "Mirko Srbinovski",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.18.0",
-    "@aws-sdk/util-dynamodb": "^3.18.0"
+    "@aws-sdk/client-dynamodb": "^3.44.0",
+    "@aws-sdk/util-dynamodb": "^3.44.0"
   },
   "devDependencies": {
     "serverless-iam-roles-per-function": "^3.2.0"
