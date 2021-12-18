@@ -1,3 +1,4 @@
+# this file is created by the serverless framework
 service: dynamodb-crud-api
 
 provider:

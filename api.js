@@ -1,3 +1,4 @@
+// this is the file containing the imports and the functions
 const db = require("./db");
 const {
     GetItemCommand,
