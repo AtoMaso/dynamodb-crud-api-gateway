@@ -1,9 +1,5 @@
 const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");
-const client = new DynamoDBClient({
-    region:"ap-southeast-2",
-    accessKeyId: "access_key_id",
-    secretAccessKeyId: "secret_access_key_id",
-    endpoint: "http://locahost:8000",
+const client = new DynamoDBClient({    
 });
 
 module.exports = client;
