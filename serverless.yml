@@ -18,14 +18,10 @@ custom:
   serverless-offline:
     resourceRoutes: true # HTTP proxy
     
-
-
-
 plugins:
   - serverless-iam-roles-per-function
   - serverless-dynamodb-local
   - serverless-offline
-
 
 functions:
   getPost:
